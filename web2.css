@@ -1,0 +1,357 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Slight transparency */
+    color: #fff;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.header .reservation {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url(https://media.istockphoto.com/id/2147698913/photo/large-mid-century-styled-restaurant-bar-with-tables-and-chairs-stools-benches-ceiling.webp?a=1&b=1&s=612x612&w=0&k=20&c=W_VfEy8WJKppL4r5vVuuP_eO9ESbJgR4HdZ9xmHrlA0=) no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-top: 100px; /* Offset for fixed header */
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    color: #fff;
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 12px;
+    display: block;
+    color: #999;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: #f4a261;
+}
+
+.reservation button {
+    background: #f4a261;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reservation button:hover {
+    background: #e76f51;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 100px; /* Offset for fixed header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px;
+    background: #f7f7f7;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.image-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    background-image: url(https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.webp?a=1&b=1&s=612x612&w=0&k=20&c=PDAOJZowRgcFpLORXCV5p9Yt4wuOlxpYkxOUk5M4koo=);
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section h3 {
+    color: #e76f51;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.text-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    color: #fff;
+    z-index: 1000;
+    padding: 15px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-size: 12px;
+    display: block;
+    color: #999;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    color: #f4a261;
+}
+
+.reservation button {
+    background: #f4a261;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reservation button:hover {
+    background: #e76f51;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 100px; /* Offset for fixed header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px;
+    background: #f7f7f7;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Image Section */
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Section */
+.text-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section h3 {
+    color: #e76f51;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.text-section h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.rating {
+    color: #f4a261;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.text-section p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.price {
+    float: right;
+    font-weight: bold;
+    color: #e76f51;
+}
+
+.description {
+    font-style: italic;
+    color: #666;
+}
+
+.order-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #e76f51;
+    background: transparent;
+    color: #e76f51;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+    background: #e76f51;
+    color: #fff;
+}
